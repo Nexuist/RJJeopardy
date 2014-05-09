@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB9D940E191D4D3F0076B42C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB9D940D191D4D3F0076B42C /* Foundation.framework */; };
+		BB9D9410191D4D3F0076B42C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB9D940F191D4D3F0076B42C /* CoreGraphics.framework */; };
+		BB9D9412191D4D3F0076B42C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB9D9411191D4D3F0076B42C /* UIKit.framework */; };
+		BB9D9418191D4D3F0076B42C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BB9D9416191D4D3F0076B42C /* InfoPlist.strings */; };
+		BB9D941A191D4D3F0076B42C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9D9419191D4D3F0076B42C /* main.m */; };
+		BB9D941E191D4D3F0076B42C /* RJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9D941D191D4D3F0076B42C /* RJAppDelegate.m */; };
+		BB9D9421191D4D3F0076B42C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB9D941F191D4D3F0076B42C /* Main.storyboard */; };
+		BB9D9424191D4D3F0076B42C /* RJFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9D9423191D4D3F0076B42C /* RJFirstViewController.m */; };
+		BB9D9427191D4D3F0076B42C /* RJSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9D9426191D4D3F0076B42C /* RJSecondViewController.m */; };
+		BB9D9429191D4D3F0076B42C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB9D9428191D4D3F0076B42C /* Images.xcassets */; };
+		BB9D9430191D4D3F0076B42C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB9D942F191D4D3F0076B42C /* XCTest.framework */; };
+		BB9D9431191D4D3F0076B42C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB9D940D191D4D3F0076B42C /* Foundation.framework */; };
+		BB9D9432191D4D3F0076B42C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB9D9411191D4D3F0076B42C /* UIKit.framework */; };
+		BB9D943A191D4D3F0076B42C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BB9D9438191D4D3F0076B42C /* InfoPlist.strings */; };
+		BB9D943C191D4D3F0076B42C /* RJJeopardyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9D943B191D4D3F0076B42C /* RJJeopardyTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB9D9433191D4D3F0076B42C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB9D9402191D4D3F0076B42C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB9D9409191D4D3F0076B42C;
+			remoteInfo = RJJeopardy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB9D940A191D4D3F0076B42C /* RJJeopardy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RJJeopardy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB9D940D191D4D3F0076B42C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BB9D940F191D4D3F0076B42C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BB9D9411191D4D3F0076B42C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BB9D9415191D4D3F0076B42C /* RJJeopardy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RJJeopardy-Info.plist"; sourceTree = "<group>"; };
+		BB9D9417191D4D3F0076B42C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BB9D9419191D4D3F0076B42C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BB9D941B191D4D3F0076B42C /* RJJeopardy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RJJeopardy-Prefix.pch"; sourceTree = "<group>"; };
+		BB9D941C191D4D3F0076B42C /* RJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RJAppDelegate.h; sourceTree = "<group>"; };
+		BB9D941D191D4D3F0076B42C /* RJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RJAppDelegate.m; sourceTree = "<group>"; };
+		BB9D9420191D4D3F0076B42C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB9D9422191D4D3F0076B42C /* RJFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RJFirstViewController.h; sourceTree = "<group>"; };
+		BB9D9423191D4D3F0076B42C /* RJFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RJFirstViewController.m; sourceTree = "<group>"; };
+		BB9D9425191D4D3F0076B42C /* RJSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RJSecondViewController.h; sourceTree = "<group>"; };
+		BB9D9426191D4D3F0076B42C /* RJSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RJSecondViewController.m; sourceTree = "<group>"; };
+		BB9D9428191D4D3F0076B42C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BB9D942E191D4D3F0076B42C /* RJJeopardyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RJJeopardyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB9D942F191D4D3F0076B42C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BB9D9437191D4D3F0076B42C /* RJJeopardyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RJJeopardyTests-Info.plist"; sourceTree = "<group>"; };
+		BB9D9439191D4D3F0076B42C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BB9D943B191D4D3F0076B42C /* RJJeopardyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RJJeopardyTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB9D9407191D4D3F0076B42C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB9D9410191D4D3F0076B42C /* CoreGraphics.framework in Frameworks */,
+				BB9D9412191D4D3F0076B42C /* UIKit.framework in Frameworks */,
+				BB9D940E191D4D3F0076B42C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB9D942B191D4D3F0076B42C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB9D9430191D4D3F0076B42C /* XCTest.framework in Frameworks */,
+				BB9D9432191D4D3F0076B42C /* UIKit.framework in Frameworks */,
+				BB9D9431191D4D3F0076B42C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB9D9401191D4D3F0076B42C = {
+			isa = PBXGroup;
+			children = (
+				BB9D9413191D4D3F0076B42C /* RJJeopardy */,
+				BB9D9435191D4D3F0076B42C /* RJJeopardyTests */,
+				BB9D940C191D4D3F0076B42C /* Frameworks */,
+				BB9D940B191D4D3F0076B42C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB9D940B191D4D3F0076B42C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB9D940A191D4D3F0076B42C /* RJJeopardy.app */,
+				BB9D942E191D4D3F0076B42C /* RJJeopardyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB9D940C191D4D3F0076B42C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB9D940D191D4D3F0076B42C /* Foundation.framework */,
+				BB9D940F191D4D3F0076B42C /* CoreGraphics.framework */,
+				BB9D9411191D4D3F0076B42C /* UIKit.framework */,
+				BB9D942F191D4D3F0076B42C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB9D9413191D4D3F0076B42C /* RJJeopardy */ = {
+			isa = PBXGroup;
+			children = (
+				BB9D941C191D4D3F0076B42C /* RJAppDelegate.h */,
+				BB9D941D191D4D3F0076B42C /* RJAppDelegate.m */,
+				BB9D941F191D4D3F0076B42C /* Main.storyboard */,
+				BB9D9422191D4D3F0076B42C /* RJFirstViewController.h */,
+				BB9D9423191D4D3F0076B42C /* RJFirstViewController.m */,
+				BB9D9425191D4D3F0076B42C /* RJSecondViewController.h */,
+				BB9D9426191D4D3F0076B42C /* RJSecondViewController.m */,
+				BB9D9428191D4D3F0076B42C /* Images.xcassets */,
+				BB9D9414191D4D3F0076B42C /* Supporting Files */,
+			);
+			path = RJJeopardy;
+			sourceTree = "<group>";
+		};
+		BB9D9414191D4D3F0076B42C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB9D9415191D4D3F0076B42C /* RJJeopardy-Info.plist */,
+				BB9D9416191D4D3F0076B42C /* InfoPlist.strings */,
+				BB9D9419191D4D3F0076B42C /* main.m */,
+				BB9D941B191D4D3F0076B42C /* RJJeopardy-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BB9D9435191D4D3F0076B42C /* RJJeopardyTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB9D943B191D4D3F0076B42C /* RJJeopardyTests.m */,
+				BB9D9436191D4D3F0076B42C /* Supporting Files */,
+			);
+			path = RJJeopardyTests;
+			sourceTree = "<group>";
+		};
+		BB9D9436191D4D3F0076B42C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB9D9437191D4D3F0076B42C /* RJJeopardyTests-Info.plist */,
+				BB9D9438191D4D3F0076B42C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB9D9409191D4D3F0076B42C /* RJJeopardy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB9D943F191D4D3F0076B42C /* Build configuration list for PBXNativeTarget "RJJeopardy" */;
+			buildPhases = (
+				BB9D9406191D4D3F0076B42C /* Sources */,
+				BB9D9407191D4D3F0076B42C /* Frameworks */,
+				BB9D9408191D4D3F0076B42C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RJJeopardy;
+			productName = RJJeopardy;
+			productReference = BB9D940A191D4D3F0076B42C /* RJJeopardy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB9D942D191D4D3F0076B42C /* RJJeopardyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB9D9442191D4D3F0076B42C /* Build configuration list for PBXNativeTarget "RJJeopardyTests" */;
+			buildPhases = (
+				BB9D942A191D4D3F0076B42C /* Sources */,
+				BB9D942B191D4D3F0076B42C /* Frameworks */,
+				BB9D942C191D4D3F0076B42C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB9D9434191D4D3F0076B42C /* PBXTargetDependency */,
+			);
+			name = RJJeopardyTests;
+			productName = RJJeopardyTests;
+			productReference = BB9D942E191D4D3F0076B42C /* RJJeopardyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB9D9402191D4D3F0076B42C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RJ;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Deplex;
+				TargetAttributes = {
+					BB9D942D191D4D3F0076B42C = {
+						TestTargetID = BB9D9409191D4D3F0076B42C;
+					};
+				};
+			};
+			buildConfigurationList = BB9D9405191D4D3F0076B42C /* Build configuration list for PBXProject "RJJeopardy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB9D9401191D4D3F0076B42C;
+			productRefGroup = BB9D940B191D4D3F0076B42C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB9D9409191D4D3F0076B42C /* RJJeopardy */,
+				BB9D942D191D4D3F0076B42C /* RJJeopardyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB9D9408191D4D3F0076B42C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB9D9429191D4D3F0076B42C /* Images.xcassets in Resources */,
+				BB9D9418191D4D3F0076B42C /* InfoPlist.strings in Resources */,
+				BB9D9421191D4D3F0076B42C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB9D942C191D4D3F0076B42C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB9D943A191D4D3F0076B42C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB9D9406191D4D3F0076B42C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB9D941E191D4D3F0076B42C /* RJAppDelegate.m in Sources */,
+				BB9D9424191D4D3F0076B42C /* RJFirstViewController.m in Sources */,
+				BB9D9427191D4D3F0076B42C /* RJSecondViewController.m in Sources */,
+				BB9D941A191D4D3F0076B42C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB9D942A191D4D3F0076B42C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB9D943C191D4D3F0076B42C /* RJJeopardyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB9D9434191D4D3F0076B42C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB9D9409191D4D3F0076B42C /* RJJeopardy */;
+			targetProxy = BB9D9433191D4D3F0076B42C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BB9D9416191D4D3F0076B42C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB9D9417191D4D3F0076B42C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BB9D941F191D4D3F0076B42C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB9D9420191D4D3F0076B42C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BB9D9438191D4D3F0076B42C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB9D9439191D4D3F0076B42C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB9D943D191D4D3F0076B42C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BB9D943E191D4D3F0076B42C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB9D9440191D4D3F0076B42C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RJJeopardy/RJJeopardy-Prefix.pch";
+				INFOPLIST_FILE = "RJJeopardy/RJJeopardy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BB9D9441191D4D3F0076B42C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RJJeopardy/RJJeopardy-Prefix.pch";
+				INFOPLIST_FILE = "RJJeopardy/RJJeopardy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BB9D9443191D4D3F0076B42C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RJJeopardy.app/RJJeopardy";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RJJeopardy/RJJeopardy-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RJJeopardyTests/RJJeopardyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BB9D9444191D4D3F0076B42C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RJJeopardy.app/RJJeopardy";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RJJeopardy/RJJeopardy-Prefix.pch";
+				INFOPLIST_FILE = "RJJeopardyTests/RJJeopardyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB9D9405191D4D3F0076B42C /* Build configuration list for PBXProject "RJJeopardy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB9D943D191D4D3F0076B42C /* Debug */,
+				BB9D943E191D4D3F0076B42C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB9D943F191D4D3F0076B42C /* Build configuration list for PBXNativeTarget "RJJeopardy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB9D9440191D4D3F0076B42C /* Debug */,
+				BB9D9441191D4D3F0076B42C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BB9D9442191D4D3F0076B42C /* Build configuration list for PBXNativeTarget "RJJeopardyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB9D9443191D4D3F0076B42C /* Debug */,
+				BB9D9444191D4D3F0076B42C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB9D9402191D4D3F0076B42C /* Project object */;
+}
