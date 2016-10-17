@@ -7,10 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A933766A1DB50447007A957D /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A93376651DB50447007A957D /* MBProgressHUD.m */; };
+		A933766C1DB50447007A957D /* UIAlertView+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = A93376691DB50447007A957D /* UIAlertView+Blocks.m */; };
+		A93376731DB5046D007A957D /* RJAnswerPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = A933766F1DB5046D007A957D /* RJAnswerPicker.m */; };
+		A93376741DB5046D007A957D /* RJFillInTheBlankPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = A93376701DB5046D007A957D /* RJFillInTheBlankPicker.m */; };
+		A93376751DB5046D007A957D /* RJMultipleChoicePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = A93376711DB5046D007A957D /* RJMultipleChoicePicker.m */; };
+		A93376761DB5046D007A957D /* RJTrueFalsePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = A93376721DB5046D007A957D /* RJTrueFalsePicker.m */; };
+		A93376781DB5055C007A957D /* UIActionSheet+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = A93376671DB50447007A957D /* UIActionSheet+Blocks.m */; };
+		A933767A1DB505EA007A957D /* RJAnswerPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = A933766E1DB5046D007A957D /* RJAnswerPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A933767B1DB505EA007A957D /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = A93376641DB50447007A957D /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A933767C1DB505EA007A957D /* UIActionSheet+Blocks.h in Headers */ = {isa = PBXBuildFile; fileRef = A93376661DB50447007A957D /* UIActionSheet+Blocks.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A933767D1DB505EA007A957D /* UIAlertView+Blocks.h in Headers */ = {isa = PBXBuildFile; fileRef = A93376681DB50447007A957D /* UIAlertView+Blocks.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A933767E1DB506AE007A957D /* RJAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = BB9D941C191D4D3F0076B42C /* RJAppDelegate.h */; };
 		BB51E7C8191EE5350026F775 /* RJStartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB51E7C7191EE5350026F775 /* RJStartViewController.m */; };
 		BB51E7CA191EE6BF0026F775 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB51E7C9191EE6BF0026F775 /* QuartzCore.framework */; };
-		BB51E7CD191F04DB0026F775 /* UIAlertView+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = BB51E7CC191F04DB0026F775 /* UIAlertView+Blocks.m */; };
-		BB51E7D1191FC5C90026F775 /* RJMultipleChoicePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = BB51E7D0191FC5C90026F775 /* RJMultipleChoicePicker.m */; };
 		BB9D940E191D4D3F0076B42C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB9D940D191D4D3F0076B42C /* Foundation.framework */; };
 		BB9D9410191D4D3F0076B42C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB9D940F191D4D3F0076B42C /* CoreGraphics.framework */; };
 		BB9D9412191D4D3F0076B42C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB9D9411191D4D3F0076B42C /* UIKit.framework */; };
@@ -21,21 +31,23 @@
 		BB9D9429191D4D3F0076B42C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB9D9428191D4D3F0076B42C /* Images.xcassets */; };
 		BB9D9447191D4EF70076B42C /* RJMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9D9446191D4EF70076B42C /* RJMainViewController.m */; };
 		BB9D944C191D534A0076B42C /* questions.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB9D944B191D534A0076B42C /* questions.plist */; };
-		BB9D944F191D572B0076B42C /* UIActionSheet+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9D944E191D572B0076B42C /* UIActionSheet+Blocks.m */; };
-		BBB324C219211DBB004EED0D /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB324C119211DBB004EED0D /* MBProgressHUD.m */; };
-		BBDDA7A0192081770055B564 /* RJAnswerPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = BBDDA79F192081770055B564 /* RJAnswerPicker.m */; };
-		BBDFAD691929AA7E0010C88B /* RJTrueFalsePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = BBDFAD681929AA7E0010C88B /* RJTrueFalsePicker.m */; };
-		BBDFAD6C192D8E1C0010C88B /* RJFillInTheBlankPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = BBDFAD6B192D8E1C0010C88B /* RJFillInTheBlankPicker.m */; };
 		BBE04C3A192F262F00E57F44 /* RJEndViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBE04C39192F262F00E57F44 /* RJEndViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A93376641DB50447007A957D /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBProgressHUD.h; path = "Third Party/MBProgressHUD.h"; sourceTree = "<group>"; };
+		A93376651DB50447007A957D /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBProgressHUD.m; path = "Third Party/MBProgressHUD.m"; sourceTree = "<group>"; };
+		A93376661DB50447007A957D /* UIActionSheet+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIActionSheet+Blocks.h"; path = "Third Party/UIActionSheet+Blocks.h"; sourceTree = "<group>"; };
+		A93376671DB50447007A957D /* UIActionSheet+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIActionSheet+Blocks.m"; path = "Third Party/UIActionSheet+Blocks.m"; sourceTree = "<group>"; };
+		A93376681DB50447007A957D /* UIAlertView+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+Blocks.h"; path = "Third Party/UIAlertView+Blocks.h"; sourceTree = "<group>"; };
+		A93376691DB50447007A957D /* UIAlertView+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+Blocks.m"; path = "Third Party/UIAlertView+Blocks.m"; sourceTree = "<group>"; };
+		A933766E1DB5046D007A957D /* RJAnswerPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RJAnswerPicker.h; path = "Answer Pickers/RJAnswerPicker.h"; sourceTree = "<group>"; };
+		A933766F1DB5046D007A957D /* RJAnswerPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RJAnswerPicker.m; path = "Answer Pickers/RJAnswerPicker.m"; sourceTree = "<group>"; };
+		A93376701DB5046D007A957D /* RJFillInTheBlankPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RJFillInTheBlankPicker.m; path = "Answer Pickers/RJFillInTheBlankPicker.m"; sourceTree = "<group>"; };
+		A93376711DB5046D007A957D /* RJMultipleChoicePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RJMultipleChoicePicker.m; path = "Answer Pickers/RJMultipleChoicePicker.m"; sourceTree = "<group>"; };
+		A93376721DB5046D007A957D /* RJTrueFalsePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RJTrueFalsePicker.m; path = "Answer Pickers/RJTrueFalsePicker.m"; sourceTree = "<group>"; };
 		BB51E7C7191EE5350026F775 /* RJStartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJStartViewController.m; sourceTree = "<group>"; };
 		BB51E7C9191EE6BF0026F775 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		BB51E7CB191F04DB0026F775 /* UIAlertView+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+Blocks.h"; path = "../../CoinWallet/CoinWallet/UIAlertView+Blocks.h"; sourceTree = "<group>"; };
-		BB51E7CC191F04DB0026F775 /* UIAlertView+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+Blocks.m"; path = "../../CoinWallet/CoinWallet/UIAlertView+Blocks.m"; sourceTree = "<group>"; };
-		BB51E7D0191FC5C90026F775 /* RJMultipleChoicePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJMultipleChoicePicker.m; sourceTree = "<group>"; };
-		BB51E7D3191FD7BC0026F775 /* RJAnswerPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJAnswerPicker.h; sourceTree = "<group>"; };
 		BB9D940A191D4D3F0076B42C /* RJJeopardy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RJJeopardy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB9D940D191D4D3F0076B42C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BB9D940F191D4D3F0076B42C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -52,13 +64,6 @@
 		BB9D9446191D4EF70076B42C /* RJMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJMainViewController.m; sourceTree = "<group>"; };
 		BB9D9448191D51BA0076B42C /* RJCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJCard.h; sourceTree = "<group>"; };
 		BB9D944B191D534A0076B42C /* questions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = questions.plist; sourceTree = "<group>"; };
-		BB9D944D191D572B0076B42C /* UIActionSheet+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActionSheet+Blocks.h"; sourceTree = "<group>"; };
-		BB9D944E191D572B0076B42C /* UIActionSheet+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActionSheet+Blocks.m"; sourceTree = "<group>"; };
-		BBB324C019211DBB004EED0D /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBProgressHUD.h; path = "../../../../../Downloads/MBProgressHUD-master/MBProgressHUD.h"; sourceTree = "<group>"; };
-		BBB324C119211DBB004EED0D /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBProgressHUD.m; path = "../../../../../Downloads/MBProgressHUD-master/MBProgressHUD.m"; sourceTree = "<group>"; };
-		BBDDA79F192081770055B564 /* RJAnswerPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJAnswerPicker.m; sourceTree = "<group>"; };
-		BBDFAD681929AA7E0010C88B /* RJTrueFalsePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJTrueFalsePicker.m; sourceTree = "<group>"; };
-		BBDFAD6B192D8E1C0010C88B /* RJFillInTheBlankPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJFillInTheBlankPicker.m; sourceTree = "<group>"; };
 		BBE04C39192F262F00E57F44 /* RJEndViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJEndViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,14 +82,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BB51E7D6191FD82C0026F775 /* Answer Pickers */ = {
+		A933766D1DB50458007A957D /* Third Party */ = {
 			isa = PBXGroup;
 			children = (
-				BBDFAD6B192D8E1C0010C88B /* RJFillInTheBlankPicker.m */,
-				BBDFAD681929AA7E0010C88B /* RJTrueFalsePicker.m */,
-				BB51E7D0191FC5C90026F775 /* RJMultipleChoicePicker.m */,
-				BB51E7D3191FD7BC0026F775 /* RJAnswerPicker.h */,
-				BBDDA79F192081770055B564 /* RJAnswerPicker.m */,
+				A93376641DB50447007A957D /* MBProgressHUD.h */,
+				A93376651DB50447007A957D /* MBProgressHUD.m */,
+				A93376661DB50447007A957D /* UIActionSheet+Blocks.h */,
+				A93376691DB50447007A957D /* UIAlertView+Blocks.m */,
+				A93376671DB50447007A957D /* UIActionSheet+Blocks.m */,
+				A93376681DB50447007A957D /* UIAlertView+Blocks.h */,
+			);
+			name = "Third Party";
+			sourceTree = "<group>";
+		};
+		A93376771DB50477007A957D /* Answer Pickers */ = {
+			isa = PBXGroup;
+			children = (
+				A933766E1DB5046D007A957D /* RJAnswerPicker.h */,
+				A933766F1DB5046D007A957D /* RJAnswerPicker.m */,
+				A93376701DB5046D007A957D /* RJFillInTheBlankPicker.m */,
+				A93376711DB5046D007A957D /* RJMultipleChoicePicker.m */,
+				A93376721DB5046D007A957D /* RJTrueFalsePicker.m */,
 			);
 			name = "Answer Pickers";
 			sourceTree = "<group>";
@@ -121,7 +139,8 @@
 		BB9D9413191D4D3F0076B42C /* RJJeopardy */ = {
 			isa = PBXGroup;
 			children = (
-				BB51E7D6191FD82C0026F775 /* Answer Pickers */,
+				A93376771DB50477007A957D /* Answer Pickers */,
+				A933766D1DB50458007A957D /* Third Party */,
 				BB9D941C191D4D3F0076B42C /* RJAppDelegate.h */,
 				BB9D941D191D4D3F0076B42C /* RJAppDelegate.m */,
 				BB9D9448191D51BA0076B42C /* RJCard.h */,
@@ -139,12 +158,6 @@
 		BB9D9414191D4D3F0076B42C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				BBB324C019211DBB004EED0D /* MBProgressHUD.h */,
-				BBB324C119211DBB004EED0D /* MBProgressHUD.m */,
-				BB51E7CB191F04DB0026F775 /* UIAlertView+Blocks.h */,
-				BB51E7CC191F04DB0026F775 /* UIAlertView+Blocks.m */,
-				BB9D944D191D572B0076B42C /* UIActionSheet+Blocks.h */,
-				BB9D944E191D572B0076B42C /* UIActionSheet+Blocks.m */,
 				BB9D9415191D4D3F0076B42C /* RJJeopardy-Info.plist */,
 				BB9D9416191D4D3F0076B42C /* InfoPlist.strings */,
 				BB9D9419191D4D3F0076B42C /* main.m */,
@@ -155,11 +168,27 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		A93376791DB505DC007A957D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A933767A1DB505EA007A957D /* RJAnswerPicker.h in Headers */,
+				A933767B1DB505EA007A957D /* MBProgressHUD.h in Headers */,
+				A933767C1DB505EA007A957D /* UIActionSheet+Blocks.h in Headers */,
+				A933767D1DB505EA007A957D /* UIAlertView+Blocks.h in Headers */,
+				A933767E1DB506AE007A957D /* RJAppDelegate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		BB9D9409191D4D3F0076B42C /* RJJeopardy */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BB9D943F191D4D3F0076B42C /* Build configuration list for PBXNativeTarget "RJJeopardy" */;
 			buildPhases = (
+				A93376791DB505DC007A957D /* Headers */,
 				BB9D9406191D4D3F0076B42C /* Sources */,
 				BB9D9407191D4D3F0076B42C /* Frameworks */,
 				BB9D9408191D4D3F0076B42C /* Resources */,
@@ -220,17 +249,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A93376781DB5055C007A957D /* UIActionSheet+Blocks.m in Sources */,
+				A93376741DB5046D007A957D /* RJFillInTheBlankPicker.m in Sources */,
 				BB9D9447191D4EF70076B42C /* RJMainViewController.m in Sources */,
-				BBDDA7A0192081770055B564 /* RJAnswerPicker.m in Sources */,
-				BBDFAD691929AA7E0010C88B /* RJTrueFalsePicker.m in Sources */,
-				BB51E7CD191F04DB0026F775 /* UIAlertView+Blocks.m in Sources */,
+				A933766C1DB50447007A957D /* UIAlertView+Blocks.m in Sources */,
+				A93376731DB5046D007A957D /* RJAnswerPicker.m in Sources */,
+				A933766A1DB50447007A957D /* MBProgressHUD.m in Sources */,
 				BB9D941E191D4D3F0076B42C /* RJAppDelegate.m in Sources */,
-				BBDFAD6C192D8E1C0010C88B /* RJFillInTheBlankPicker.m in Sources */,
+				A93376761DB5046D007A957D /* RJTrueFalsePicker.m in Sources */,
+				A93376751DB5046D007A957D /* RJMultipleChoicePicker.m in Sources */,
 				BBE04C3A192F262F00E57F44 /* RJEndViewController.m in Sources */,
-				BBB324C219211DBB004EED0D /* MBProgressHUD.m in Sources */,
 				BB51E7C8191EE5350026F775 /* RJStartViewController.m in Sources */,
-				BB9D944F191D572B0076B42C /* UIActionSheet+Blocks.m in Sources */,
-				BB51E7D1191FC5C90026F775 /* RJMultipleChoicePicker.m in Sources */,
 				BB9D941A191D4D3F0076B42C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
