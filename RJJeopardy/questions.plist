@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Fill in the Blank</key>
+	<array>
+		<array>
+			<integer>5</integer>
+			<string>Biting your _____ is considered an insult.</string>
+			<integer>1</integer>
+			<string>thumb</string>
+		</array>
+		<array>
+			<integer>10</integer>
+			<string>&quot;O I am fortune&apos;s ____&quot;</string>
+			<integer>1</integer>
+			<string>fool</string>
+		</array>
+		<array>
+			<integer>15</integer>
+			<string>In the Capulet tomb, Romeo kills Count _____.</string>
+			<integer>1</integer>
+			<string>paris</string>
+		</array>
+		<array>
+			<integer>20</integer>
+			<string>&quot;O _____, _____! Wherefore art thou _____?&quot;</string>
+			<integer>1</integer>
+			<string>romeo</string>
+		</array>
+		<array>
+			<integer>25</integer>
+			<string>After killing Tybalt, Romeo hides in the Friar&apos;s ______.</string>
+			<integer>1</integer>
+			<string>cell</string>
+		</array>
+		<array>
+			<integer>30</integer>
+			<string>Romeo manages to convince the __________ to sell him poison.</string>
+			<integer>1</integer>
+			<string>apothecary</string>
+		</array>
+	</array>
+	<key>Multiple Choice</key>
+	<array>
+		<array>
+			<integer>5</integer>
+			<string>In what Italian city is Romeo and Juliet set in?</string>
+			<integer>0</integer>
+			<array>
+				<string>Rome</string>
+				<string>Milan</string>
+				<string>Verona</string>
+				<string>Venice</string>
+			</array>
+			<integer>2</integer>
+		</array>
+		<array>
+			<integer>10</integer>
+			<string>Tybalt is often referred to as the Prince of what?</string>
+			<integer>0</integer>
+			<array>
+				<string>Verona</string>
+				<string>Cats</string>
+				<string>Longsword</string>
+				<string>Rats</string>
+			</array>
+			<integer>1</integer>
+		</array>
+		<array>
+			<integer>15</integer>
+			<string>Who is Romeo&apos;s servant?</string>
+			<integer>0</integer>
+			<array>
+				<string>Balthasar</string>
+				<string>Juliet</string>
+				<string>Benvolio</string>
+				<string>Mercutio</string>
+			</array>
+			<integer>0</integer>
+		</array>
+		<array>
+			<integer>20</integer>
+			<string>Who was Romeo in love with in the beginning of the story?</string>
+			<integer>0</integer>
+			<array>
+				<string>Rosemary</string>
+				<string>Juliet</string>
+				<string>Mary</string>
+				<string>Rosaline</string>
+			</array>
+			<integer>3</integer>
+		</array>
+		<array>
+			<integer>25</integer>
+			<string>What kind of party do the Capulets have?</string>
+			<integer>0</integer>
+			<array>
+				<string>Dinner</string>
+				<string>Masque</string>
+				<string>Birthday</string>
+				<string>Baby Shower</string>
+			</array>
+			<integer>1</integer>
+		</array>
+		<array>
+			<integer>30</integer>
+			<string>Juliet&apos;s nurse was first employed as a?</string>
+			<integer>0</integer>
+			<array>
+				<string>Nun</string>
+				<string>Cook</string>
+				<string>Wet nurse</string>
+				<string>Babysitter</string>
+			</array>
+			<integer>2</integer>
+		</array>
+	</array>
+	<key>True/False</key>
+	<array>
+		<array>
+			<integer>5</integer>
+			<string>Romeo commits suicide by stabbing himself.</string>
+			<integer>2</integer>
+			<false/>
+		</array>
+		<array>
+			<integer>10</integer>
+			<string>When Romeo is exiled, he goes to Mantua.</string>
+			<integer>2</integer>
+			<true/>
+		</array>
+		<array>
+			<integer>15</integer>
+			<string>Romeo and Juliet first kiss at her balcony.</string>
+			<integer>2</integer>
+			<false/>
+		</array>
+		<array>
+			<integer>20</integer>
+			<string>Peter is the nurse&apos;s servant.</string>
+			<integer>2</integer>
+			<true/>
+		</array>
+		<array>
+			<integer>25</integer>
+			<string>Friar John is the one who explains everything to the Prince in the end.</string>
+			<integer>2</integer>
+			<false/>
+		</array>
+		<array>
+			<integer>30</integer>
+			<string>The family feud ended after Romeo and Juliet died.</string>
+			<integer>2</integer>
+			<true/>
+		</array>
+	</array>
+</dict>
+</plist>

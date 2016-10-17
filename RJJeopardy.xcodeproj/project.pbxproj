@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB51E7C8191EE5350026F775 /* RJStartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB51E7C7191EE5350026F775 /* RJStartViewController.m */; };
+		BB51E7CA191EE6BF0026F775 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB51E7C9191EE6BF0026F775 /* QuartzCore.framework */; };
+		BB51E7CD191F04DB0026F775 /* UIAlertView+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = BB51E7CC191F04DB0026F775 /* UIAlertView+Blocks.m */; };
+		BB51E7D1191FC5C90026F775 /* RJMultipleChoicePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = BB51E7D0191FC5C90026F775 /* RJMultipleChoicePicker.m */; };
 		BB9D940E191D4D3F0076B42C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB9D940D191D4D3F0076B42C /* Foundation.framework */; };
 		BB9D9410191D4D3F0076B42C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB9D940F191D4D3F0076B42C /* CoreGraphics.framework */; };
 		BB9D9412191D4D3F0076B42C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB9D9411191D4D3F0076B42C /* UIKit.framework */; };
@@ -14,27 +18,24 @@
 		BB9D941A191D4D3F0076B42C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9D9419191D4D3F0076B42C /* main.m */; };
 		BB9D941E191D4D3F0076B42C /* RJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9D941D191D4D3F0076B42C /* RJAppDelegate.m */; };
 		BB9D9421191D4D3F0076B42C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB9D941F191D4D3F0076B42C /* Main.storyboard */; };
-		BB9D9424191D4D3F0076B42C /* RJFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9D9423191D4D3F0076B42C /* RJFirstViewController.m */; };
-		BB9D9427191D4D3F0076B42C /* RJSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9D9426191D4D3F0076B42C /* RJSecondViewController.m */; };
 		BB9D9429191D4D3F0076B42C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB9D9428191D4D3F0076B42C /* Images.xcassets */; };
-		BB9D9430191D4D3F0076B42C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB9D942F191D4D3F0076B42C /* XCTest.framework */; };
-		BB9D9431191D4D3F0076B42C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB9D940D191D4D3F0076B42C /* Foundation.framework */; };
-		BB9D9432191D4D3F0076B42C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB9D9411191D4D3F0076B42C /* UIKit.framework */; };
-		BB9D943A191D4D3F0076B42C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BB9D9438191D4D3F0076B42C /* InfoPlist.strings */; };
-		BB9D943C191D4D3F0076B42C /* RJJeopardyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9D943B191D4D3F0076B42C /* RJJeopardyTests.m */; };
+		BB9D9447191D4EF70076B42C /* RJMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9D9446191D4EF70076B42C /* RJMainViewController.m */; };
+		BB9D944C191D534A0076B42C /* questions.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB9D944B191D534A0076B42C /* questions.plist */; };
+		BB9D944F191D572B0076B42C /* UIActionSheet+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9D944E191D572B0076B42C /* UIActionSheet+Blocks.m */; };
+		BBB324C219211DBB004EED0D /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB324C119211DBB004EED0D /* MBProgressHUD.m */; };
+		BBDDA7A0192081770055B564 /* RJAnswerPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = BBDDA79F192081770055B564 /* RJAnswerPicker.m */; };
+		BBDFAD691929AA7E0010C88B /* RJTrueFalsePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = BBDFAD681929AA7E0010C88B /* RJTrueFalsePicker.m */; };
+		BBDFAD6C192D8E1C0010C88B /* RJFillInTheBlankPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = BBDFAD6B192D8E1C0010C88B /* RJFillInTheBlankPicker.m */; };
+		BBE04C3A192F262F00E57F44 /* RJEndViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBE04C39192F262F00E57F44 /* RJEndViewController.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		BB9D9433191D4D3F0076B42C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BB9D9402191D4D3F0076B42C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BB9D9409191D4D3F0076B42C;
-			remoteInfo = RJJeopardy;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		BB51E7C7191EE5350026F775 /* RJStartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJStartViewController.m; sourceTree = "<group>"; };
+		BB51E7C9191EE6BF0026F775 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BB51E7CB191F04DB0026F775 /* UIAlertView+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+Blocks.h"; path = "../../CoinWallet/CoinWallet/UIAlertView+Blocks.h"; sourceTree = "<group>"; };
+		BB51E7CC191F04DB0026F775 /* UIAlertView+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+Blocks.m"; path = "../../CoinWallet/CoinWallet/UIAlertView+Blocks.m"; sourceTree = "<group>"; };
+		BB51E7D0191FC5C90026F775 /* RJMultipleChoicePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJMultipleChoicePicker.m; sourceTree = "<group>"; };
+		BB51E7D3191FD7BC0026F775 /* RJAnswerPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJAnswerPicker.h; sourceTree = "<group>"; };
 		BB9D940A191D4D3F0076B42C /* RJJeopardy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RJJeopardy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB9D940D191D4D3F0076B42C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BB9D940F191D4D3F0076B42C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -46,16 +47,19 @@
 		BB9D941C191D4D3F0076B42C /* RJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RJAppDelegate.h; sourceTree = "<group>"; };
 		BB9D941D191D4D3F0076B42C /* RJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RJAppDelegate.m; sourceTree = "<group>"; };
 		BB9D9420191D4D3F0076B42C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BB9D9422191D4D3F0076B42C /* RJFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RJFirstViewController.h; sourceTree = "<group>"; };
-		BB9D9423191D4D3F0076B42C /* RJFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RJFirstViewController.m; sourceTree = "<group>"; };
-		BB9D9425191D4D3F0076B42C /* RJSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RJSecondViewController.h; sourceTree = "<group>"; };
-		BB9D9426191D4D3F0076B42C /* RJSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RJSecondViewController.m; sourceTree = "<group>"; };
 		BB9D9428191D4D3F0076B42C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		BB9D942E191D4D3F0076B42C /* RJJeopardyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RJJeopardyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB9D942F191D4D3F0076B42C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		BB9D9437191D4D3F0076B42C /* RJJeopardyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RJJeopardyTests-Info.plist"; sourceTree = "<group>"; };
-		BB9D9439191D4D3F0076B42C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		BB9D943B191D4D3F0076B42C /* RJJeopardyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RJJeopardyTests.m; sourceTree = "<group>"; };
+		BB9D9446191D4EF70076B42C /* RJMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJMainViewController.m; sourceTree = "<group>"; };
+		BB9D9448191D51BA0076B42C /* RJCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJCard.h; sourceTree = "<group>"; };
+		BB9D944B191D534A0076B42C /* questions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = questions.plist; sourceTree = "<group>"; };
+		BB9D944D191D572B0076B42C /* UIActionSheet+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActionSheet+Blocks.h"; sourceTree = "<group>"; };
+		BB9D944E191D572B0076B42C /* UIActionSheet+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActionSheet+Blocks.m"; sourceTree = "<group>"; };
+		BBB324C019211DBB004EED0D /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBProgressHUD.h; path = "../../../../../Downloads/MBProgressHUD-master/MBProgressHUD.h"; sourceTree = "<group>"; };
+		BBB324C119211DBB004EED0D /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBProgressHUD.m; path = "../../../../../Downloads/MBProgressHUD-master/MBProgressHUD.m"; sourceTree = "<group>"; };
+		BBDDA79F192081770055B564 /* RJAnswerPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJAnswerPicker.m; sourceTree = "<group>"; };
+		BBDFAD681929AA7E0010C88B /* RJTrueFalsePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJTrueFalsePicker.m; sourceTree = "<group>"; };
+		BBDFAD6B192D8E1C0010C88B /* RJFillInTheBlankPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJFillInTheBlankPicker.m; sourceTree = "<group>"; };
+		BBE04C39192F262F00E57F44 /* RJEndViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJEndViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,30 +67,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB51E7CA191EE6BF0026F775 /* QuartzCore.framework in Frameworks */,
 				BB9D9410191D4D3F0076B42C /* CoreGraphics.framework in Frameworks */,
 				BB9D9412191D4D3F0076B42C /* UIKit.framework in Frameworks */,
 				BB9D940E191D4D3F0076B42C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BB9D942B191D4D3F0076B42C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BB9D9430191D4D3F0076B42C /* XCTest.framework in Frameworks */,
-				BB9D9432191D4D3F0076B42C /* UIKit.framework in Frameworks */,
-				BB9D9431191D4D3F0076B42C /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BB51E7D6191FD82C0026F775 /* Answer Pickers */ = {
+			isa = PBXGroup;
+			children = (
+				BBDFAD6B192D8E1C0010C88B /* RJFillInTheBlankPicker.m */,
+				BBDFAD681929AA7E0010C88B /* RJTrueFalsePicker.m */,
+				BB51E7D0191FC5C90026F775 /* RJMultipleChoicePicker.m */,
+				BB51E7D3191FD7BC0026F775 /* RJAnswerPicker.h */,
+				BBDDA79F192081770055B564 /* RJAnswerPicker.m */,
+			);
+			name = "Answer Pickers";
+			sourceTree = "<group>";
+		};
 		BB9D9401191D4D3F0076B42C = {
 			isa = PBXGroup;
 			children = (
 				BB9D9413191D4D3F0076B42C /* RJJeopardy */,
-				BB9D9435191D4D3F0076B42C /* RJJeopardyTests */,
 				BB9D940C191D4D3F0076B42C /* Frameworks */,
 				BB9D940B191D4D3F0076B42C /* Products */,
 			);
@@ -96,7 +102,6 @@
 			isa = PBXGroup;
 			children = (
 				BB9D940A191D4D3F0076B42C /* RJJeopardy.app */,
-				BB9D942E191D4D3F0076B42C /* RJJeopardyTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -104,6 +109,7 @@
 		BB9D940C191D4D3F0076B42C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BB51E7C9191EE6BF0026F775 /* QuartzCore.framework */,
 				BB9D940D191D4D3F0076B42C /* Foundation.framework */,
 				BB9D940F191D4D3F0076B42C /* CoreGraphics.framework */,
 				BB9D9411191D4D3F0076B42C /* UIKit.framework */,
@@ -115,15 +121,17 @@
 		BB9D9413191D4D3F0076B42C /* RJJeopardy */ = {
 			isa = PBXGroup;
 			children = (
+				BB51E7D6191FD82C0026F775 /* Answer Pickers */,
 				BB9D941C191D4D3F0076B42C /* RJAppDelegate.h */,
 				BB9D941D191D4D3F0076B42C /* RJAppDelegate.m */,
+				BB9D9448191D51BA0076B42C /* RJCard.h */,
+				BB51E7C7191EE5350026F775 /* RJStartViewController.m */,
+				BB9D9446191D4EF70076B42C /* RJMainViewController.m */,
+				BBE04C39192F262F00E57F44 /* RJEndViewController.m */,
 				BB9D941F191D4D3F0076B42C /* Main.storyboard */,
-				BB9D9422191D4D3F0076B42C /* RJFirstViewController.h */,
-				BB9D9423191D4D3F0076B42C /* RJFirstViewController.m */,
-				BB9D9425191D4D3F0076B42C /* RJSecondViewController.h */,
-				BB9D9426191D4D3F0076B42C /* RJSecondViewController.m */,
 				BB9D9428191D4D3F0076B42C /* Images.xcassets */,
 				BB9D9414191D4D3F0076B42C /* Supporting Files */,
+				BB9D944B191D534A0076B42C /* questions.plist */,
 			);
 			path = RJJeopardy;
 			sourceTree = "<group>";
@@ -131,28 +139,16 @@
 		BB9D9414191D4D3F0076B42C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BBB324C019211DBB004EED0D /* MBProgressHUD.h */,
+				BBB324C119211DBB004EED0D /* MBProgressHUD.m */,
+				BB51E7CB191F04DB0026F775 /* UIAlertView+Blocks.h */,
+				BB51E7CC191F04DB0026F775 /* UIAlertView+Blocks.m */,
+				BB9D944D191D572B0076B42C /* UIActionSheet+Blocks.h */,
+				BB9D944E191D572B0076B42C /* UIActionSheet+Blocks.m */,
 				BB9D9415191D4D3F0076B42C /* RJJeopardy-Info.plist */,
 				BB9D9416191D4D3F0076B42C /* InfoPlist.strings */,
 				BB9D9419191D4D3F0076B42C /* main.m */,
 				BB9D941B191D4D3F0076B42C /* RJJeopardy-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		BB9D9435191D4D3F0076B42C /* RJJeopardyTests */ = {
-			isa = PBXGroup;
-			children = (
-				BB9D943B191D4D3F0076B42C /* RJJeopardyTests.m */,
-				BB9D9436191D4D3F0076B42C /* Supporting Files */,
-			);
-			path = RJJeopardyTests;
-			sourceTree = "<group>";
-		};
-		BB9D9436191D4D3F0076B42C /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				BB9D9437191D4D3F0076B42C /* RJJeopardyTests-Info.plist */,
-				BB9D9438191D4D3F0076B42C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -177,24 +173,6 @@
 			productReference = BB9D940A191D4D3F0076B42C /* RJJeopardy.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BB9D942D191D4D3F0076B42C /* RJJeopardyTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BB9D9442191D4D3F0076B42C /* Build configuration list for PBXNativeTarget "RJJeopardyTests" */;
-			buildPhases = (
-				BB9D942A191D4D3F0076B42C /* Sources */,
-				BB9D942B191D4D3F0076B42C /* Frameworks */,
-				BB9D942C191D4D3F0076B42C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BB9D9434191D4D3F0076B42C /* PBXTargetDependency */,
-			);
-			name = RJJeopardyTests;
-			productName = RJJeopardyTests;
-			productReference = BB9D942E191D4D3F0076B42C /* RJJeopardyTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -204,11 +182,6 @@
 				CLASSPREFIX = RJ;
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = Deplex;
-				TargetAttributes = {
-					BB9D942D191D4D3F0076B42C = {
-						TestTargetID = BB9D9409191D4D3F0076B42C;
-					};
-				};
 			};
 			buildConfigurationList = BB9D9405191D4D3F0076B42C /* Build configuration list for PBXProject "RJJeopardy" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -224,7 +197,6 @@
 			projectRoot = "";
 			targets = (
 				BB9D9409191D4D3F0076B42C /* RJJeopardy */,
-				BB9D942D191D4D3F0076B42C /* RJJeopardyTests */,
 			);
 		};
 /* End PBXProject section */
@@ -234,17 +206,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB9D944C191D534A0076B42C /* questions.plist in Resources */,
 				BB9D9429191D4D3F0076B42C /* Images.xcassets in Resources */,
 				BB9D9418191D4D3F0076B42C /* InfoPlist.strings in Resources */,
 				BB9D9421191D4D3F0076B42C /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BB9D942C191D4D3F0076B42C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BB9D943A191D4D3F0076B42C /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,30 +220,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB9D9447191D4EF70076B42C /* RJMainViewController.m in Sources */,
+				BBDDA7A0192081770055B564 /* RJAnswerPicker.m in Sources */,
+				BBDFAD691929AA7E0010C88B /* RJTrueFalsePicker.m in Sources */,
+				BB51E7CD191F04DB0026F775 /* UIAlertView+Blocks.m in Sources */,
 				BB9D941E191D4D3F0076B42C /* RJAppDelegate.m in Sources */,
-				BB9D9424191D4D3F0076B42C /* RJFirstViewController.m in Sources */,
-				BB9D9427191D4D3F0076B42C /* RJSecondViewController.m in Sources */,
+				BBDFAD6C192D8E1C0010C88B /* RJFillInTheBlankPicker.m in Sources */,
+				BBE04C3A192F262F00E57F44 /* RJEndViewController.m in Sources */,
+				BBB324C219211DBB004EED0D /* MBProgressHUD.m in Sources */,
+				BB51E7C8191EE5350026F775 /* RJStartViewController.m in Sources */,
+				BB9D944F191D572B0076B42C /* UIActionSheet+Blocks.m in Sources */,
+				BB51E7D1191FC5C90026F775 /* RJMultipleChoicePicker.m in Sources */,
 				BB9D941A191D4D3F0076B42C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BB9D942A191D4D3F0076B42C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BB9D943C191D4D3F0076B42C /* RJJeopardyTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		BB9D9434191D4D3F0076B42C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BB9D9409191D4D3F0076B42C /* RJJeopardy */;
-			targetProxy = BB9D9433191D4D3F0076B42C /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		BB9D9416191D4D3F0076B42C /* InfoPlist.strings */ = {
@@ -295,14 +252,6 @@
 				BB9D9420191D4D3F0076B42C /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		BB9D9438191D4D3F0076B42C /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BB9D9439191D4D3F0076B42C /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -383,9 +332,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RJJeopardy/RJJeopardy-Prefix.pch";
 				INFOPLIST_FILE = "RJJeopardy/RJJeopardy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -396,51 +347,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RJJeopardy/RJJeopardy-Prefix.pch";
 				INFOPLIST_FILE = "RJJeopardy/RJJeopardy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		BB9D9443191D4D3F0076B42C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RJJeopardy.app/RJJeopardy";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RJJeopardy/RJJeopardy-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "RJJeopardyTests/RJJeopardyTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		BB9D9444191D4D3F0076B42C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RJJeopardy.app/RJJeopardy";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RJJeopardy/RJJeopardy-Prefix.pch";
-				INFOPLIST_FILE = "RJJeopardyTests/RJJeopardyTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
@@ -463,14 +376,7 @@
 				BB9D9441191D4D3F0076B42C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		BB9D9442191D4D3F0076B42C /* Build configuration list for PBXNativeTarget "RJJeopardyTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BB9D9443191D4D3F0076B42C /* Debug */,
-				BB9D9444191D4D3F0076B42C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
