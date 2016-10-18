@@ -1,7 +1,7 @@
 ### Introduction
 This is an app I created for my English class in my freshmen year of high school (2013-14) with a friend. I've uploaded it for legacy purposes. The basic premise is a simple jeopardy game with fill in the blank, true/false, and multiple choice questions, centered around Romeo & Juliet lore. The game can also handle scorekeeping for two teams.
 
-## Screenshots
+### Screenshots
 
 * Starting a new game:
 
@@ -30,3 +30,8 @@ This is an app I created for my English class in my freshmen year of high school
 * Answering a fill in the blank question:
 
 ![Enter input in a textbox](Screenshots/FillInTheBlank.png)
+
+### Next Steps
+* Convert to Swift
+* More perfected autolayout
+* App Store release(?)
