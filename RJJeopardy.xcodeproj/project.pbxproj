@@ -19,6 +19,7 @@
 		A933767C1DB505EA007A957D /* UIActionSheet+Blocks.h in Headers */ = {isa = PBXBuildFile; fileRef = A93376661DB50447007A957D /* UIActionSheet+Blocks.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A933767D1DB505EA007A957D /* UIAlertView+Blocks.h in Headers */ = {isa = PBXBuildFile; fileRef = A93376681DB50447007A957D /* UIAlertView+Blocks.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A933767E1DB506AE007A957D /* RJAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = BB9D941C191D4D3F0076B42C /* RJAppDelegate.h */; };
+		A93376821DB59BF7007A957D /* RJLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A93376811DB59BF7007A957D /* RJLaunchScreen.storyboard */; };
 		BB51E7C8191EE5350026F775 /* RJStartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB51E7C7191EE5350026F775 /* RJStartViewController.m */; };
 		BB51E7CA191EE6BF0026F775 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB51E7C9191EE6BF0026F775 /* QuartzCore.framework */; };
 		BB9D940E191D4D3F0076B42C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB9D940D191D4D3F0076B42C /* Foundation.framework */; };
@@ -47,6 +48,7 @@
 		A93376711DB5046D007A957D /* RJMultipleChoicePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RJMultipleChoicePicker.m; path = "Answer Pickers/RJMultipleChoicePicker.m"; sourceTree = "<group>"; };
 		A93376721DB5046D007A957D /* RJTrueFalsePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RJTrueFalsePicker.m; path = "Answer Pickers/RJTrueFalsePicker.m"; sourceTree = "<group>"; };
 		A93376801DB508D8007A957D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		A93376811DB59BF7007A957D /* RJLaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = RJLaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB51E7C7191EE5350026F775 /* RJStartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJStartViewController.m; sourceTree = "<group>"; };
 		BB51E7C9191EE6BF0026F775 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		BB9D940A191D4D3F0076B42C /* RJJeopardy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RJJeopardy.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -149,6 +151,7 @@
 				BB9D9446191D4EF70076B42C /* RJMainViewController.m */,
 				BBE04C39192F262F00E57F44 /* RJEndViewController.m */,
 				BB9D941F191D4D3F0076B42C /* Main.storyboard */,
+				A93376811DB59BF7007A957D /* RJLaunchScreen.storyboard */,
 				BB9D9428191D4D3F0076B42C /* Images.xcassets */,
 				BB9D9414191D4D3F0076B42C /* Supporting Files */,
 				BB9D944B191D534A0076B42C /* questions.plist */,
@@ -236,6 +239,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A93376821DB59BF7007A957D /* RJLaunchScreen.storyboard in Resources */,
 				BB9D944C191D534A0076B42C /* questions.plist in Resources */,
 				BB9D9429191D4D3F0076B42C /* Images.xcassets in Resources */,
 				BB9D9418191D4D3F0076B42C /* InfoPlist.strings in Resources */,
