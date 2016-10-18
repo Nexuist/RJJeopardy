@@ -9,7 +9,7 @@ This is an app I created for my English class in my freshmen year of high school
 
 * Selecting a question:
 
-* ![Selection view](Screenshots/SelectionView.png)
+ ![Selection view](Screenshots/SelectionView.png)
 
 * Answering a multiple choice question:
 
