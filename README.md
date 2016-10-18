@@ -19,9 +19,9 @@ This is an app I created for my English class in my freshmen year of high school
 
 ![Category selector](Screenshots/CategorySelector.png)
 
-* Answering a multiple choice question:
+* Answering a true/false question:
 
-![Multiple choice view](Screenshots/MultipleChoice.png)
+![Multiple choice view](Screenshots/TrueFalse.png)
 
 * Getting a wrong answer:
 
