@@ -72,9 +72,9 @@
 {
     MBProgressHUD *HUD = [MBProgressHUD showHUDAddedTo:self.view animated:YES];
     HUD.mode = MBProgressHUDModeText;
-    HUD.labelText = topText;
-    HUD.detailsLabelText = bottomText;
-    [HUD hide:YES afterDelay:1];
+    HUD.label.text = topText;
+    HUD.detailsLabel.text = bottomText;
+    [HUD hideAnimated:YES afterDelay:1];
 }
 
 - (void)setCategory:(NSString *)category
